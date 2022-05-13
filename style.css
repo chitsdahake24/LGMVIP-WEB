@@ -1,15 +1,15 @@
 body{
-    font-family: Arial;
+    font-family:monospace;
     font-style: bold;
-    background-color: darkgrey;
+    background-color: rgb(164, 244, 255);
 }
 
 .container{
-    width: 90%;
+    width: 80%;
     max-width: 500px ;
     margin: 0 auto;
     margin-top: 14vh;
-    background-color:antiquewhite;
+    background-color:rgb(100, 187, 103);
 
 }
 
@@ -30,27 +30,27 @@ h1{
 
 input{
     width: 80%;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #000000;
     border-right: none;
     outline: none;
     padding: 20px;
-    background-color:darkkhaki;
+    background-color:rgb(255, 149, 68);
     color: black;
     font-size: 100%;
 }
 
 input:focus{
-    border: 1px solid #8A60Eb;
+    border: 1px solid #000000;
 }
 
 button{
     width: 25%;
     border: none;
-    color: white;
-    background: #460149;
+    color: rgb(0, 0, 0);
+    background: #fdcaff;
     cursor:progress;
-    font-size: 16px;
-    border-radius: 10%;
+    font-size: 22px;
+    
 }
 
 table{
@@ -60,13 +60,14 @@ table{
     text-align: left;
     font-size: 18px;
     border-radius: 20%;
-    border: 2px solid black;
+    border: 2px solid rgb(60, 0, 156);
 }
 
 table td, table th{
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(60, 0, 156);
     padding: 15px;
     font-style: bold;
+    font-size: large;
     text-align: center;
     background-color:aliceblue;
     color: black;
@@ -78,21 +79,21 @@ table td:nth-child(2), table td:nth-child(3){
 }
 
 .fa-trash{
-    color: #505050;
+    color: #fffbfb;
     font-size: 18px;
     display: table-cell !important;
     text-align: center;
 }
 
 .finished {
-    color: rgb(38, 0, 255);
+    color: rgb(133, 1, 1);
     text-decoration: line-through;
 }
 
 .in-progress{
-    color: green;
+    color: rgb(6, 90, 6);
 }
 
 .todo {
-    color: red;
+    color: rgb(180, 211, 6);
 }
